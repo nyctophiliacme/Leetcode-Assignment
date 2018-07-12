@@ -17,7 +17,6 @@ public:
         func(root);
         TreeNode* ptr = q.front();
         q.pop();
-        root = ptr;
         ptr->left = NULL;
         ptr->right = NULL;
         while(!q.empty())
