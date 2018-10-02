@@ -23,7 +23,7 @@ public:
         func(root, min, secMin);
         return secMin == INT_MAX ? -1 : secMin;
     }
-    //Better solution
+    //This is a better solution
     int ans = INT_MAX, least;
     void solve(TreeNode* root)
     {
